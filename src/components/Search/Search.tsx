@@ -11,9 +11,9 @@ const Search = ({ searchClicked, loading }: SearchProp) => {
 
     return (
         <div className="search">
-            <p>Search</p>
+            {/* <p>Search</p> */}
             <input value={searchtext} placeholder="Search..." onChange={(e)=>setSearchtext(e.target.value)}/>
-            <button disabled={loading} onClick={()=> searchClicked(searchtext)}>Search  🔍</button>
+            <button disabled={loading || searchtext.length <= 0} onClick={()=> searchClicked(searchtext)}>Search  🔍</button>
         </div>
 
     )
