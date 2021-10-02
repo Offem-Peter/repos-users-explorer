@@ -1,0 +1,43 @@
+.search {
+  background: #fff;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.search p {
+  margin: 10px 0px;
+}
+
+input {
+  width: 450px;
+  padding: 18px 20px;
+  margin: 0px 20px;
+  display: inline-block;
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+input::placeholder {
+  color: #aeaeae;
+}
+
+button {
+  border: 0;
+  background-color: #ec6661;
+  height: 40px;
+  width: 100px;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 5px;
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}

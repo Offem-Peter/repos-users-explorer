@@ -1,0 +1,35 @@
+.result-card {
+  border-radius: 3px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  width: 230px;
+  height: 250px;
+}
+
+.avatar-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.result-card .body {
+  padding-top: 10px;
+}
+
+.result-card .body p {
+  margin: 6px;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: left;
+}
+
+.result-card .body a {
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+}
